@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+    <head>
+        <title>CPSC 349 - Project 13</title>
+        <script src="minio-js/dist/main/minio-browser.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+        <script src="upload.js"></script>
+    </head>
+    <body>
+        <form>
+            Image Caption: <input type="text" name="name" id="name">
+            <br>
+            Choose a File: <input type="file" name="file" id="file">
+            <br>
+            <input type="button" name="submit" value="Submit" onclick="uploadFile()">
+        </form>
+    </body>
+</html>
